@@ -1,0 +1,13 @@
+@import url("normalize.css");	
+@import url("grid.css");
+@import url("style.css");	
+@import url("buttons.css");	
+@import url("table.css");	
+
+img { -ms-interpolation-mode: bicubic; }
+
+.profilepic{
+	background-size:cover;
+	background-position:center;
+	background-repeat:no-repeat;
+}

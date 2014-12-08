@@ -1,0 +1,8 @@
+# once per htaccess file
+Options +FollowSymlinks
+#RewriteEngine on
+
+#RewriteCond %{REQUEST_FILENAME} !-f
+#RewriteCond %{REQUEST_FILENAME} !-d
+#RewriteRule ^([a-z0-9-_]+)/? /$1.php
+#RewriteRule ^([a-z0-9-_]+).php$ /$1/ [R]
